@@ -1,0 +1,7 @@
+/.idea
+/.bin
+/node_modules
+/examples
+/docs
+/test
+/npm-debug.log

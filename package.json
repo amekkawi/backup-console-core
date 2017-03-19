@@ -1,0 +1,39 @@
+{
+  "name": "backup-console-core",
+  "version": "0.1.0",
+  "description": "TODO",
+  "main": "index.js",
+  "author": "Andre Mekkawi <github@andremekkawi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amekkawi/backup-console-core/issues"
+  },
+  "homepage": "https://github.com/amekkawi/backup-console-core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amekkawi/backup-console-core.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --bail --require ./test/setup.js ./test/index.js"
+  },
+  "keywords": [
+    "cloud",
+    "aws",
+    "backup",
+    "dashboard",
+    "arq"
+  ],
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-plugin-jsdoc": "^2.4.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "object-inspect": "^1.2.1",
+    "proxyquire": "^1.7.11"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.9.2",
+    "mailparser": "^0.6.2"
+  }
+}
