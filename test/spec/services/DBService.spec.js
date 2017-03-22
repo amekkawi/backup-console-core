@@ -13,8 +13,11 @@ describe('DBService', function() {
 	[
 		'addClient',
 		'getClient',
+		'getBackupResult',
 		'addBackupResult',
 		'incrementBackupResultMetrics',
+		'getClientMonthlyMetrics',
+		'getClientWeeklyMetrics',
 	]
 		.forEach(function(methodName) {
 			describe(`DBService#${methodName}`, function() {

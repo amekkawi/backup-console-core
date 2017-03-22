@@ -22,3 +22,4 @@ require('./spec/services/DBService.spec');
 require('./spec/services/QueueService.spec');
 require('./spec/services/StorageService.spec');
 require('./spec/services/ReceivingService.spec');
+require('./spec/services/IngestService.spec');
